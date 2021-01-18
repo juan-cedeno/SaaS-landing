@@ -1,0 +1,94 @@
+.cont-banner {
+    background-image: url('../assets/fondobanner.png'),linear-gradient(35deg, rgb(147, 249, 185) 0%, rgb(29, 151, 108) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.letter-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.desc {
+    background-color: #5DBE95;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    border: 1px solid #279C73;
+}
+.desc > p {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.desc  span {
+    color: #007560 !important;
+    font-weight: 400 !important;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 690px;
+    text-align: center;
+    justify-content: center;
+}
+.description > h3 {
+    font-size: 45px;
+    color: #ffffff;
+    margin: 10px 0px;
+}
+.description > p {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+.btn-video {
+    display: flex;
+    align-items: center;
+    margin: 29px 0px;
+}
+.btn-video > button {
+    background-color: #EDCD37;
+    padding: 14px 50px;
+    border: 1px solid #EDCD37;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 25px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.btn-video > p {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-video >p:hover {
+    color: #EDCD37;
+    transition: ease 0.5s;
+}
+
+.fa-play {
+    font-size: 15px;
+    margin-right: 5px;
+}
+.img-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+}
+.img-banner > img {
+
+    width: 1100px;
+}

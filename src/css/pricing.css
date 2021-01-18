@@ -1,0 +1,70 @@
+.cont-pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pricing {
+    display: flex;
+}
+.card-pricing {
+    border: 1px solid #F2F4F7;
+    padding: 27px 5px;
+    box-shadow: 0px 0px 2px 0px rgb(209, 209, 209);
+    margin: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-card{
+    font-size: 22px;
+    color: #302B4E;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.desc-card {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    margin: 15px 0px;
+    color: rgb(141, 141, 141);
+}
+.price-card{
+    font-size: 40px;
+    color: #302b4e;
+    margin: 4px 0px;
+}
+.mont-card{
+    font-size: 14px;
+    margin: 7px 0px;
+}
+.btn-card {
+    padding: 12px 30px;
+    margin: 20px 0px;
+    background-color: transparent;
+    border: 1px solid #2AA275;
+    color: #2AA275;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.btn-card:hover {
+    background-color:#2AA275 !important;
+    color: white !important;
+    transition: ease 0.5s;
+}
+.benefits-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.benefits-card > p {
+    margin: 6px 0px;
+    color: #87878a;
+    font-weight: 400;
+    font-size: 15px;
+}
+.fa-check {
+    color: #18D379;
+}

@@ -1,0 +1,36 @@
+.cont-job {
+    display: flex;
+    align-items: center;
+}
+.cont-img-job {
+    background-image: url('../assets/feature-atras.png');
+}
+.cont-img-job > img {
+    margin-left: -20px;
+}
+
+.letter-job {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.letter-job > p {
+    color: #0F2137;
+    font-size: 45px;
+    margin-bottom: 18px;
+}
+.letter-job > label {
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.letter-job >button {
+    background-color: #EDCD37;
+    width: 145px;
+    padding: 12px 0px;
+    border: 1px solid #EDCD37;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
