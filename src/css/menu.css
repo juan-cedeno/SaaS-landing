@@ -28,6 +28,9 @@
 .active-link >  a {
     color: #342737 !important;
 }
+.active-link > a:hover{
+    color: #EDCD37 !important;
+}
 .links {
     display: flex;
     justify-content: center;
@@ -40,6 +43,9 @@
     color: #ffffff;
     font-weight: 400;
 }
+.links > a:hover {
+    color: #EDCD37;
+} 
 .getstarted {
     background-color: #edcd37;
     padding: 12px 17px;
